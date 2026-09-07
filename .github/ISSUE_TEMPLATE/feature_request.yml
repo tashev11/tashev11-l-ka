@@ -1,0 +1,51 @@
+name: Предложить функцию
+description: Предложите улучшение для L-KA
+title: "[Idea]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Лучше всего описывать не только идею, но и проблему пользователя, которую она решает.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Где это нужно
+      options:
+        - Web
+        - Android
+        - Windows / macOS
+        - iPhone / iPad
+        - Сообщения
+        - Звонки
+        - Бизнес-чат / виджет
+        - Кабинет оператора
+        - Интеграции
+        - Другое
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какая проблема сейчас
+      description: Кто сталкивается с ней и в каком сценарии?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Какое решение вы предлагаете
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Как вы решаете это сейчас
+      description: Необязательно, но помогает понять приоритет.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Приватность
+      options:
+        - label: В сообщении нет паролей, токенов, приватной переписки и персональных данных.
+          required: true
