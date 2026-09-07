@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔐 Сообщить об уязвимости
+    url: https://l-ka.ru
+    about: Не публикуйте детали уязвимости в открытом Issue. Используйте официальный канал связи и укажите Security / Уязвимость L-KA.
+  - name: 🌐 Официальный сайт L-KA
+    url: https://l-ka.ru
+    about: Информация о продукте и бизнес-возможностях.
+  - name: 💬 Открыть L-KA
+    url: https://app.l-ka.ru
+    about: Веб-приложение L-KA.
