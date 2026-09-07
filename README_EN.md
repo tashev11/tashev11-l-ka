@@ -2,7 +2,7 @@
 
 # 💬 L‑KA · Elka
 
-### Invite-only messenger for people, teams and businesses
+### Private invite-only messenger for people, teams and businesses
 
 **Web · Android · Windows · macOS · iPhone/iPad · website live chat**
 
@@ -19,22 +19,45 @@
 
 ## What is L‑KA?
 
-**L‑KA (Elka)** is an invite-only messenger that combines real-time messaging, 1:1 voice/video calls, a web app, Android and desktop clients, plus business communication tools.
+**L‑KA (Elka)** is a working cross-platform invite-only messenger for private communication, groups, calls, channels, stories and business conversations.
 
-Use the same service in a browser, on Android, on Windows/macOS, or install it to the iPhone/iPad Home Screen as a web app.
+Registration does not require a mandatory phone number or email address. One account can be used across supported devices.
 
-### Highlights
+### Features
 
-- 💬 real-time messaging;
-- 📞 1:1 voice and video calls;
-- 🌐 web application;
-- 🤖 Android app;
-- 🖥️ Windows and macOS desktop apps;
-- 🍎 iPhone/iPad installation from Safari via Add to Home Screen;
-- 🔔 notifications;
+- 💬 private and group chats;
+- ↩️ replies, reactions and pinned messages;
+- 🎙️ voice messages;
+- 📢 broadcast channels;
+- 👥 groups with owner/moderator roles;
+- 🟣 stories from friends and channels;
+- 📞 voice and video calls;
+- ✓ sent / delivered / read statuses;
+- ⌨️ typing indicators;
+- 🔔 push notifications;
+- ☀️ light and 🌙 dark themes;
+- 📎 synchronization of messages, calls and files across devices;
 - 🏢 business workspace;
-- 💬 embeddable website chat widget;
+- 💬 embeddable website live-chat widget;
 - 👨‍💻 operator workspace for website conversations.
+
+---
+
+## 🔐 Privacy & security
+
+L‑KA is built around invite-only access and protection of user data.
+
+- invite-only network access;
+- no mandatory phone number or email for registration;
+- encrypted transport via TLS;
+- encryption for stored messages;
+- end-to-end encryption for secret chats;
+- message content is not used for advertising;
+- no third-party advertising/tracking cookies.
+
+Official privacy policy: **[l-ka.ru/privacy](https://l-ka.ru/privacy)**.
+
+For vulnerability reporting, see **[SECURITY.md](SECURITY.md)**.
 
 ---
 
@@ -46,7 +69,7 @@ Open **[app.l-ka.ru](https://app.l-ka.ru)**.
 
 ### Android
 
-➡️ **[Get L‑KA on Google Play](https://play.google.com/store/apps/details?id=ru.lka.elka)**
+➡️ **[Get “ЭЛЬКА Мессенджер” on Google Play](https://play.google.com/store/apps/details?id=ru.lka.elka)**
 
 ### Windows and macOS
 
@@ -61,29 +84,25 @@ L‑KA can be installed as a web app:
 3. Choose **Add to Home Screen**.
 4. Confirm.
 
-See **[installation instructions](docs/INSTALL.md)** for all platforms.
+See **[installation instructions](docs/INSTALL.md)**.
 
 ---
 
 ## 🏢 L‑KA for Business
 
-L‑KA also provides a website communication channel for businesses.
+Businesses can embed an **L‑KA live-chat widget** on a website and handle incoming conversations through an operator workspace.
 
-A company can embed an **L‑KA live chat widget** on its website and handle incoming conversations through an operator workspace.
-
-**website visitor → live chat → operator → L‑KA conversation**
+```text
+Website visitor
+      ↓
+ L-KA live chat
+      ↓
+    Operator
+      ↓
+ Conversation
+```
 
 Learn more: **[L‑KA for Business](docs/BUSINESS.md)**.
-
----
-
-## About this repository
-
-This is the **official public GitHub home of L‑KA**.
-
-It contains product information, installation guides, user/business documentation, support information, security reporting instructions and public release notes.
-
-> Server-side source code and internal L‑KA infrastructure are not published in this repository.
 
 ---
 
@@ -101,9 +120,9 @@ It contains product information, installation guides, user/business documentatio
 
 ## Technology
 
-L‑KA is built around real-time web technologies and platform-specific wrappers. The product uses **Node.js, Express, Socket.IO, WebRTC, PWA, Capacitor and Electron**.
+The product uses **Node.js, Express, Socket.IO, WebRTC, PWA, Capacitor and Electron**.
 
-This repository is a public product/documentation repository and does not expose the private application backend.
+This public repository is the official product/documentation home of L‑KA and does not expose the private backend or internal infrastructure.
 
 ---
 
@@ -114,6 +133,7 @@ This repository is a public product/documentation repository and does not expose
 - [FAQ](docs/FAQ.md)
 - [Support](SUPPORT.md)
 - [Security](SECURITY.md)
+- [Privacy Policy](https://l-ka.ru/privacy)
 - [Changelog](CHANGELOG.md)
 - [Contributing](CONTRIBUTING.md)
 
@@ -121,9 +141,11 @@ This repository is a public product/documentation repository and does not expose
 
 ## Bugs and ideas
 
-Use GitHub Issues for public bug reports and feature requests. Never post passwords, tokens, private messages, phone numbers or other sensitive/personal data in a public Issue.
+GitHub Issues contains separate forms for bug reports and feature requests.
 
-For security vulnerabilities, follow **[SECURITY.md](SECURITY.md)**.
+Never post passwords, login codes, tokens, private messages, personal data or vulnerability details in a public Issue.
+
+Support: **support@l-ka.ru**
 
 ---
 
@@ -131,6 +153,6 @@ For security vulnerabilities, follow **[SECURITY.md](SECURITY.md)**.
 
 ### L‑KA · messaging without unnecessary complexity
 
-**[Open L‑KA](https://app.l-ka.ru)** · **[Website](https://l-ka.ru)** · **[Desktop download](https://l-ka.ru/download/)**
+**[Open L‑KA](https://app.l-ka.ru)** · **[Google Play](https://play.google.com/store/apps/details?id=ru.lka.elka)** · **[Desktop download](https://l-ka.ru/download/)**
 
 </div>
